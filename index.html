@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!--Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="home">
+      <video autoplay muted loop class="background-video">
+          <source src="images/background-video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+  
+      <div class="home-content">
+          <h1>Welcome to My Portfolio</h1>
+          <h2>MY ONLINE PORTFOLIO</h2>
+          <p>Let's dive into my works and expertise in graphic designing, AI, web designing, python programming, data science, and coding among others.</p>
+          <button class="read-more">View More</button>
+      </div>
+  </section>
+  
+  
+
+    <!--About Section-->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+
+        <div class="card-container">
+            <div class="card">
+                <img src="images/my-photo.jpeg" alt="Milan" width="100%">
+                <h3>Introduction</h3>
+                <p>My name is Pifua Milan, a Ugandan aged 24 years, currently pursuing my Diploma in Early Childhood Teacher Development Education. I am also taking data science classes at Octic Foundation, while studying online at Genius Institute. I have a passion for coding and technology.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/education.jpg" alt="Education">
+                <h3>Education Background</h3>
+                <ul>
+                    <li>Diploma in Early Childhood Teacher Development Education at YMCA</li>
+                    <li>Certificate in Data Science at Octic Foundation</li>
+                    <li>Certificate in Web Designing at GiiT</li>
+                    <li>Diploma in Computer Science & Entrepreneurship at WITI</li>
+                    <li>Chatbot Training at WITI</li>
+                </ul>
+                <button class="read-more">View More</button>
+            </div>
+
+            <div class="card">
+                <img src="images/business-card.jpg" alt="Business Card">
+                <img src="images/menu.jpg" alt="Menu">
+                <h3>Skills and Experience</h3>
+                <ul>
+                    <li>Teaching</li>
+                    <li>Python Programming</li>
+                    <li>Chatbot Construction</li>
+                    <li>Web Design</li>
+                    <li>Graphic Design</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>My Services</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="images/graphic-design.jpg" alt="Graphic Design">
+                <h3>Graphic Design</h3>
+                <p>Expert in designing business cards, posters, flyers, and more.</p>
+                <button class="read-more">View More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Works Section -->
+    <section id="works" class="works">
+        <h2>My Works</h2>
+        <div class="card-container">
+            <div class="card">
+                <a href="https://www.linkedin.com/in/milan-pifua-134453256/" target="_blank">
+                    <img src="images/linkedin.png" alt="LinkedIn">
+                    <h3>LinkedIn</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://github.com/Pifuacodegal" target="_blank">
+                    <img src="images/github.png" alt="GitHub">
+                    <h3>GitHub Account</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.instagram.com/mimigracemila?igsh=MXd5eHhvNG51ZG9iag==" target="_blank">
+                    <img src="images/instagram.jpg" alt="Instagram">
+                    <h3>Instagram</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="card">
+            <form action="#" method="post">
+                <label for="phone">Telephone</label>
+                <input type="tel" id="phone" name="phone" required placeholder="+256 783 610786">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="milanpifua@gmail.com">
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="4" required placeholder="Type your message here..."></textarea>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Milan Pifua. All Rights Reserved!</p>
+        <p><a href="#home">Back to Top</a></p>
+    </footer>
+</body>
+
+</html>
